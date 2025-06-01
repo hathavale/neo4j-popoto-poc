@@ -1,0 +1,13 @@
+# Lines starting with # are comments
+# Exclude specific configuration files
+.env
+config/development.local.json
+
+# Exclude local build artifacts not meant for personal repo
+/dist_heroku_specific/
+
+# Exclude large data files from personal repo
+data/large_dataset.csv
+
+# Exclude specific log files
+*.local.log
